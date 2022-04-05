@@ -1,0 +1,26 @@
+/* Position relative mueve los elementos en relacion
+con el lugar en el que normalmente apareceria/
+Habilita los lados o coordenadas */
+.relative {
+    position: relative;
+    top: 300px;
+    left: 30px;
+}
+
+/* Position Absolute toma las cordenadas de la ventana del navegador */
+.absolute {
+    position: absolute;
+    top: 30px;
+}
+
+/* Position fixed */
+
+.fixed {
+    position: fixed;
+    top: 50;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}

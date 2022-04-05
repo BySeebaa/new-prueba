@@ -1,0 +1,125 @@
+
+
+
+/* Regla {} 2 Propiedades */
+@font-face {
+    /* Definir como vamos a llamar a esta fuente */
+    font-family: Lemon ;
+    src: url('Lemon-Tea.ttf');
+    
+    /* Donde encuentra los archivos de la fuente / URL */
+     /*Dentro Iria el archivo q se deja en la carpeta */
+
+
+
+}
+
+/* html o :root */
+:root {
+     /* variable + valor */
+     --color-home-navbar: red;
+     --color-bordes:100px  green;
+
+     --size-encabezados: 44px;
+
+}
+
+nav {
+    background-color: var(--color-home-navbar);
+}
+
+
+
+
+p {
+    font-family:LEMON;
+}
+
+h1 {
+    font-family: reboto-encabezados;
+}
+
+/* Unidades de medida */
+/* Unidades absolutas son un tipo de medida fija
+que no cambia ni depende de otro factor.Son ideales
+cuando el contexto no varia */
+
+p {
+    font-size: 22px;
+}
+
+/* Unidades relativas son un tipo de medidas que dependen 
+de otro factor,son ideales para dispositivos con distintos tamaños */
+
+/* em Se establece su tamaño por el navegador,es de 16px */
+/* 1em = 16px */
+h1 {
+    font-size: 4em;
+    text-align: center;
+    
+}
+
+/* rem / el tamaño base lo establecemos nosotros */
+
+html {
+    font-size: 22px;
+}
+
+a {
+    font-size:
+    2rem;
+}
+
+/* % */
+img {
+    width: 100%;
+}
+
+/* Box Model */
+h1 {
+    /* Relleno - padding */
+    /* padding: 40px; */
+    /**/
+    /* padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 0px;
+    padding-right: 120px;
+    /*vertical - horizontal */
+    /* padding: 80px 120px; */
+    /* 4 lados */
+     padding: 50px 300px 0 120px;
+    
+     /* Borde - Border - size + style + color*/
+    /* border: 4px dashed blue;
+     /* Lados */
+     border-bottom: 4px;
+     border-style: dashed;
+     color: aqua;
+     
+     padding: 0px;
+     margin: 0px;
+     /* Margen*/
+   
+    
+    
+    
+    
+}
+
+p {
+    padding: 100px;
+    margin: 50px;
+    text-align: center;
+    background: rgb(77, 235, 9)
+
+}
+
+/* Header */
+
+
+/* Carousel */ 
+
+/*Productos */
+
+/* Footer */
+    
